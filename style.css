@@ -105,15 +105,18 @@
     padding-left: 6%;
     text-align: center;
   }
+  .table-responsive{
+    margin-bottom: 100%;
+  }
 
 }
 .lead{
-    font-family: 'Bureau';
+    font-family: 'londrina solid';
 }
 
 /*button*/
 button, button::after {
-    width:auto;
+    width:100%;
     height:auto;
     font-size:200%;
     font-family: 'Bureau', cursive;
@@ -209,8 +212,8 @@ button, button::after {
 
 .faq {
     margin: 0 ;
-    padding: 4rem;
-    width: 45rem;
+    padding: 4.5rem;
+    width:100%;
     background-color: #EFE3DA;
 
 
@@ -219,15 +222,20 @@ button, button::after {
   h3 {
     font-size: 1.75rem;
     color: #000000;
-    padding: 2rem;
+    padding: 0rem;
     margin: 0;
   }
   .accordion-item{
     border: 1px solid #000000;
     background-color: #EFE3DA;
-    font-family: "bureau";
+    font-family: "londrina solid";
+    width:100% ;
 
+  
 
+  }
+  .accordion{
+    width:100%;
   }
   .accordion a {
     position: relative;
@@ -311,27 +319,23 @@ button, button::after {
 /*TEAM*/
 
 
-.heading{
 
-
-
-    text-align: left;
-
-
-}
 
 .table-responsive{
-    height:83%; width:fit-content;
+    height:80%; width:85%;
     margin-top: 11.2%;
     overflow-y: auto;
     overflow-y: hidden;
-    border: 1px #000000 solid;
-    margin-bottom:-500%;
+    border: 1px black solid;
+    margin-bottom:-400%;
+    margin-left: auto;
+    margin-right: auto;
 
 
   }.table-responsive:hover{border-color:rgb(0, 0, 0);}
 
   table{width:100%; }
+ 
 
 
 
@@ -658,7 +662,7 @@ a{
     margin: 0 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: "bureau";
+    font-family: "londrina solid";
 }
 .footer-07 p {
     color: rgba(0, 0, 0, 0.3);
