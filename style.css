@@ -209,10 +209,10 @@ button, button::after {
 /*End*/
 /*FAQS*/
 
-
 .faq {
     margin: 0 ;
-    padding: 4.5rem;
+    padding-top:4.5rem ;
+    padding-bottom: 4.5rem;
     width:100%;
     background-color: #EFE3DA;
 
@@ -255,6 +255,7 @@ button, button::after {
     font-weight: 400;
 
   }
+  
   .accordion a:hover,
   .accordion a:hover::after {
     cursor: pointer;
@@ -276,8 +277,8 @@ button, button::after {
     right: 1rem;
     font-size: 1rem;
     color: #000000;
-    padding:1%;
-    width:5.5%;
+    padding:1.5%;
+    width:fit-content;
     height: 30px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -285,6 +286,11 @@ button, button::after {
     border: 1px solid #000000;
     text-align: center;
   }
+  /* @media screen and (max-width: 992px) {
+    .accordion a::after {
+      width:12%;
+    } */
+ 
   .accordion a.active::after {
     font-family: 'Ionicons';
     content: '\f209';
