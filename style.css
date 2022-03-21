@@ -328,12 +328,12 @@ button, button::after {
 
 
 .table-responsive{
-    height:80%; width:85%;
+    height:79.6%; width:85%;
     margin-top: 11.2%;
     overflow-y: auto;
     overflow-y: hidden;
     border: 1px black solid;
-    margin-bottom:-400%;
+    margin-bottom:-300%;
     margin-left: auto;
     margin-right: auto;
 
