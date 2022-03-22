@@ -4,47 +4,7 @@
     src: url("fonts/HBM\ Bureau\ \(donationware\).ttf");
 }
 
-/*Loading effect*/
-.spinner-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #222123;
-  z-index: 999999;
-  }
-  .spinner {
-    width: 80px;
-    height: 80px;
-    background-color: rgb(255, 255, 255);
 
-    position: absolute;
-    top: 48%;
-    left: 48%;
-    -webkit-animation: sk-rotateplane 0.8s infinite ease-in-out;
-    animation: sk-rotateplane 1s infinite ease-in-out;
-  }
-
-  @-webkit-keyframes sk-rotateplane {
-    0% { -webkit-transform: perspective(120px) }
-    50% { -webkit-transform: perspective(120px) rotateY(180deg) }
-    100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
-  }
-
-  @keyframes sk-rotateplane {
-    0% {
-      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
-    } 50% {
-      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
-    } 100% {
-      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-    }
-  }
-/*END*/
 .navigation {
     /* fixed keyword is fine too */
     /*position: sticky;
@@ -105,9 +65,7 @@
     padding-left: 6%;
     text-align: center;
   }
-  .table-responsive{
-    margin-bottom: 100%;
-  }
+  
 
 }
 .lead{
@@ -138,7 +96,7 @@ button, button::after {
     --slice-4: inset(40% -6px 43% 0);
     --slice-5: inset(80% -6px 5% 0);
 
-    content: 'AVAILABLE NOW';
+    content: 'LAUNCH APP';
     display: block;
     position: absolute;
     top: 0;
@@ -211,15 +169,17 @@ button, button::after {
 
 .faq {
     margin: 0 ;
-    padding-top:4.5rem ;
+    padding-top:5rem ;
     padding-bottom: 4.5rem;
     width:100%;
+    height:100%;
     background-color: #EFE3DA;
 
 
   }
 
   h3 {
+    text-align: center;
     font-size: 1.75rem;
     color: #000000;
     padding: 0rem;
@@ -277,7 +237,7 @@ button, button::after {
     right: 1rem;
     font-size: 1rem;
     color: #000000;
-    padding:1.5%;
+    padding:1%;
     width:fit-content;
     height: 30px;
     -webkit-border-radius: 50%;
@@ -328,8 +288,9 @@ button, button::after {
 
 
 .table-responsive{
-    height:79.6%; width:85%;
-    margin-top: 11.2%;
+    height:79%;
+    width: 95%;
+    margin-top:5rem ;
     overflow-y: auto;
     overflow-y: hidden;
     border: 1px black solid;
@@ -341,10 +302,18 @@ button, button::after {
   }.table-responsive:hover{border-color:rgb(0, 0, 0);}
 
   table{width:100%; }
- 
+
+
+  
+  
+  /* // Apply styles starting from medium devices and up to extra large devices
+@media (min-width: 768px) and (max-width: 1199.98px) { ... } */
 
 
 
+/*Split screen div*/
+
+/*END*/
 
 
 
@@ -487,7 +456,7 @@ section, .container, .container-fluid {
 /*Launchpads*/
 /* Slider */
 
-h2{
+/* h2{
     text-align:center;
     padding: 20px;
   }
@@ -608,7 +577,7 @@ h2{
 }
 .slick-arrow.slick-hidden {
     display: none;
-}
+} */
   /*End*/
 
 
